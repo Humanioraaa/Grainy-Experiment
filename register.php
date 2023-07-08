@@ -18,7 +18,7 @@
       href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css"
     />
 
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="container">
@@ -108,6 +108,5 @@
         </div>
       </div>
     </div>
-    <!-- partial -->
   </body>
 </html>

@@ -15,15 +15,15 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Index</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-
-  <div class="page-transition">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="page-transition">
         <div class="div"></div>
         <div class="div"></div>
         <div class="div"></div>
@@ -38,21 +38,20 @@
         </ul>
         </div>
 
-    <div class="nav">
+        <div class="nav">
       <h2>HUMANIORA</h2>
-      <div class="success-holder">
+      <div class="menu">
         <?php if (isset($_SESSION['success'])) : ?>
-        <p class="success">
+        <p>
           <?php 
                         echo $_SESSION['success'];
                         unset($_SESSION['success']);
                     ?>
         </p>
         <?php endif ?>
-        
         <?php if (isset($_SESSION['username'])) : ?>
         <p>
-          Well, Hello <strong><?php echo $_SESSION['username']; ?>!</strong>
+          Well, Hello <strong><?php echo $_SESSION['username']; ?></strong>
         </p>
         <p><a href="index.php?logout='1'" style="color: #fff">Logout</a></p>
         <?php endif ?>
@@ -61,7 +60,7 @@
 
     <div class="hero">
       <div class="hero-text">
-        <h1>Grainy Experiment.</h1>
+        <h1>Grainy Forever.</h1>
         <p>"Check out my latest work on GitHub and Behance."</p>
         <div class="buttons">
           <a
@@ -79,7 +78,7 @@
         </div>
       </div>
       <div class="blob-cont">
-        <div class="purple blob"></div>
+        <div class="yellow blob"></div>
         <div class="red blob"></div>
         <div class="green blob"></div>
       </div>
@@ -105,5 +104,5 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
     <script src="script.js"></script>
-  </body>
+</body>
 </html>

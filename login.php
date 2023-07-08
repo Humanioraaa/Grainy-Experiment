@@ -17,7 +17,7 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css"
     />
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div class="container">
@@ -40,7 +40,7 @@
                 type="text"
                 name="username"
                 class="login__input"
-                placeholder="User name / Email"
+                placeholder="Email"
               />
             </div>
             <div class="login__field">

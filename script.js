@@ -13,7 +13,7 @@ $(document).ready(function () {
   loading
     .staggerFrom(
       preLoderLi,
-      0.1,
+      0.5,
       {
         y: -15,
         autoAlpha: 0,
@@ -23,7 +23,7 @@ $(document).ready(function () {
     )
     .staggerTo(
       preLoderLi,
-      0.1,
+      0.5,
       {
         y: 35,
         autoAlpha: 0,
@@ -34,7 +34,7 @@ $(document).ready(function () {
 
   slideUp.staggerTo(
     pageDiv,
-    0.1,
+    0.5,
     {
       bottom: "100%",
       ease: Power2.easeOut,
